@@ -1,0 +1,17 @@
+parameter,option,comments
+modelo,PARSEC, Teoretical Models
+phase_sel,pms, evolutionary phase
+inter_mode,cubic, interpolation option
+min_mass,0.01, minimal mass in Msun
+max_mass,10, maximal mass in Msun
+min_age,0.01, minimal age in Myr
+max_age,100, maximal age in Myr 
+num_nmc1,50, montecarlo iteration
+extlaw,c89, extinction law
+Rv,3.1, extinction selection
+anch1,J,filter used as anchor in extinction estimation (Gp Rp J)
+Xopt1,SpT_PM13,temperature values lineal(Teff) logarithmic(lgTeff) or spectral type with the convertion from PM13 (SpT_PM13) or KH95 (SpT_KH95)
+Yopt1,PM13, Bolometric correction and intrinsic color option
+massagedir,/home/hernandj/ASTROTOOLS/IDLpro/JHpro/MASSAGE_V2/, Models folder
+output,test_PARSEC_PM13, Base name for outputfiles
+mcoutput,N, generate a file with monte carlo results per object (Y or N)
